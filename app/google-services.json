@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852410574451",
+    "project_id": "cinepool-b8e51",
+    "storage_bucket": "cinepool-b8e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852410574451:android:60000b473244e0f98b6c06",
+        "android_client_info": {
+          "package_name": "com.example.cinepool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852410574451-ajba7jeuio6i8el7020qcnd8l43064a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlzvEBixoYlX3Lreqzaj0ICck2fMHxQX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852410574451-ajba7jeuio6i8el7020qcnd8l43064a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
