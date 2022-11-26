@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/view_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titulo de la Pelicula"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/view_director"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Director"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/view_duracion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Duración"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/view_genero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Género"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/view_idioma"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Idioma"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/view_resumen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Resumen"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_editar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3F6BF1"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/btn_alquilar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#049817"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_shopp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/btn_eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF1212"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_delete" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
